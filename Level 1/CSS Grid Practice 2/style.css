@@ -1,0 +1,43 @@
+html, body {
+    background-color:white;
+    margin: 15px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat (8);
+    grid-template-rows: repeat(3, 175px);
+    grid-gap: 20px;
+}
+
+header {
+    background-color: rgb(11, 212, 212);
+    border-radius: 20px;
+    grid-column: 1/9;
+}
+
+sidebar {
+    background-color: rgb(49, 245, 59);
+    border-radius: 20px;
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+}
+
+content {
+    background-color: rgb(101, 25, 241);
+    border-radius: 20px;
+    grid-column: 5 / 9;
+}
+
+sidebar2 {
+    background-color: rgb(241, 22, 176);
+    border-radius: 20px;
+    grid-column: 5 / 7;
+}
+
+footer {
+    background-color: rgba(166, 16, 253, 0.952);
+    border-radius: 20px;
+    grid-column: 7 / 9;
+}

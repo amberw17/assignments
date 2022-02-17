@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+    margin:2px;
+    position:relative;
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1400px){
+
+            #lightPink{
+            width: 99.5%;
+            height: 80px;
+            background-color:#F5C6D6;
+            padding: 50px;
+            }
+            
+            #darkPink{
+            background-color:#EE2E84;
+            height: 80px;
+            width: 24.6%;
+            padding: 50px;
+            display: inline-block;
+
+            }
+            
+            #blue{
+            background-color:#85CFD8;
+            height: 80px;
+            width: 49.5%;
+            padding: 50px;
+            display: inline-block;
+            }
+            
+            #green{
+            background-color:#8DC63F;
+            height: 80px;
+            width: 75%;
+            padding: 50px;
+            display: inline-block;
+            }
+            
+            #orange{
+            background-color:#E76E34;
+            height: 80px;
+            width: 24%;
+            padding: 50px;
+            display: inline-block;
+            }  
+}
+
+@media only screen
+    and (min-device-width: 100px)
+    and (max-device-width: 768px){
+  
+        #lightPink{
+            background-color:#F5C6D6;
+            display: block;
+            width: 100%;
+            padding: 50px;
+            }
+            
+            #darkPink{
+            background-color:#EE2E84;
+            display: block;
+            width: 100%;
+            padding: 50px;
+            }
+            
+            #blue{
+            background-color:#85CFD8;
+            display: block;
+            width: 100%;
+            padding: 50px;
+            }
+            
+            #green{
+            background-color:#8DC63F;
+            display: block;
+            width: 100%;
+            padding: 50px;
+            }
+            
+            #orange{
+            background-color:#E76E34;
+            display: block;
+            width: 100%;
+            padding: 50px;
+            }   
+      }
+
+
+
+    

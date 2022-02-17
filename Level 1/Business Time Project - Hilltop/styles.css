@@ -1,0 +1,79 @@
+
+body {
+    background-color:rgb(99, 191, 207)
+}
+
+@media screen and (min-width: 400px){
+    body {
+        background-color:rgb(247, 237, 226);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body {
+        background-color: rgb(236, 241, 241);
+    }
+}
+
+nav {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 30px;
+    background-color:rgba(127, 255, 212, 0.418);
+    position: fixed;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    margin: 2px;
+    word-spacing: 90px;
+    border: 2px solid black; 
+}
+
+h5 {
+    padding-top: 0px;
+    padding-left: 165px;
+}
+
+p {
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+#winning-buck {
+    border: 1px dashed black;
+    height: 30px;
+    max-width:710px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: rgb(139, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#winning-buck > div:nth-child(2){
+    background-color:rgba(127, 255, 212, 0.418);
+}
+
+h1 {
+    padding:10px;
+    font-size: large;
+    margin-top: 15px;
+}
+
+.owner {
+    font-size: 25px;
+    color: rgb(165, 59, 59);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.contact {
+    font-size: 25px;
+    color:black;
+}
+
+h4 {
+    padding-left: 10px;
+}
